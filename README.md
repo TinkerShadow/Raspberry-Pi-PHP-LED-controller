@@ -78,14 +78,14 @@ Try running `echo "18=1" > /dev/pi-blaster` into shell and see if anything light
 
 If it does, here's the rest if you couldn't figure it out yourself.
 
-Assuming your www directory is /var/www/: 
+Assuming your www directory is /var/www/html/: 
 
 ```
-cd /var/www/
-wget https://github.com/k1sul1/rpi-php-led-controller/archive/master.zip
+cd /var/www/html/
+wget https://github.com/k1sul1/Raspberry-Pi-PHP-LED-controller/archive/master.zip
 unzip master.zip
 mv rpi-php* led-controller
-php /var/www/led-controller/sample.php
+php /var/www/html/led-controller/sample.php
 ```
 
 Then navigate to your RPis IP address, for example, 192.168.1.50/led-controller/sample.php, and see if a manly color lights up!
